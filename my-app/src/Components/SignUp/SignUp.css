@@ -100,3 +100,12 @@
 .submit:hover {
     background: #3c009d; /* Darker shade on hover */
 }
+.already-account{
+    padding-left: 10px;
+    color: #797979;
+    font-size: 18px;
+}
+.already-account span{
+    color:#4c00b4;
+    cursor: pointer;
+}

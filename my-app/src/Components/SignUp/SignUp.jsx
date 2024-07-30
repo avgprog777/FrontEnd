@@ -127,6 +127,9 @@ export const SignUp = () => {
             }
         }
     };
+    const handleLoginUpClick = () => {
+        navigate('/');
+    };
     return (
         <div className='container'>
             <div className="header">
@@ -243,6 +246,8 @@ export const SignUp = () => {
                         <button type="submit" className="submit">Sign Up</button>
                     </div>
                 </form>
+                <div className="already-account">Already Have an Account? <span onClick={handleLoginUpClick}>Login</span>
+                    </div>
             </div>
         </div>
 
